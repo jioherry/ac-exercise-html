@@ -1,0 +1,15 @@
+.container {
+	max-width: 1000px;
+	margin: 0 auto; 
+}
+
+.col-4 {
+	margin-bottom: 30px;
+}
+
+@media (min-width: 1000px) {
+	.col-4 {
+		float: left;
+		width: 33.33333%;
+	}
+}

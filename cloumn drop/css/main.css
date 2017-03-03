@@ -1,0 +1,25 @@
+.container {
+	display: block;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.col-4 {
+	float: left;
+	width: 33.33333333%;
+	margin-bottom: 30px;
+
+}
+
+@media(max-width: 1000px) {
+
+	.col-4 {
+		width: 100px;
+	}
+}
